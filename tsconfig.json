@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "preserveConstEnums": true,
+        "module": "commonjs",
+        "declaration": true,
+        "outDir": "./dist",
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*", "../itertools/src/index.spec.ts"
+    ],
+    "exclude": [
+        "**/__tests__/*",
+        "node_modules"
+    ]
+}
